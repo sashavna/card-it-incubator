@@ -6,6 +6,4 @@ export const Description = styled.p `
     font-weight: 500;
     line-height: 20px;
     font-family: "Inter", sans-serif;
-    width: 260px;
-    height: 39px;
 `

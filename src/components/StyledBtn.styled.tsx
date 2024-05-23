@@ -8,11 +8,11 @@ type StyledBtnPropsType = {
 
 export const StyledBtn = styled.button<StyledBtnPropsType> `
     border-radius: 5px;
-    /* background-color: ${props => props.color}; */
     width: 86px;
     height: 30px;
     border: none;
-    /* color: rgb(255, 255, 255); */
+    cursor: pointer;
+
 
     ${props => props.primary && css<StyledBtnPropsType> `
         background-color: ${props => props.color};
